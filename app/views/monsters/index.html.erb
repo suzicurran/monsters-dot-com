@@ -1,0 +1,11 @@
+<div>
+  <%= link_to 'All Monsters', monsters_path %>
+</div>
+
+<h1>Monsters on Monsters.com</h1>
+
+<ul>
+  <% @monsters.each do |monster| %>
+    <li><%= link_to monster.name, monster %> </li>
+  <% end %>
+</ul>
