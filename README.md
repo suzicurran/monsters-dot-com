@@ -1,28 +1,36 @@
-# README
+# MonsterS.com
 
 [ ![Codeship Status for suzicurran/monsters-dot-com](https://codeship.com/projects/84754160-bf10-0134-0a5c-7a625a3fabd4/status?branch=master)](https://codeship.com/projects/196487)
 ![Code Climate](https://codeclimate.com/github/suzicurran/monsters-dot-com.png)
 ![Coverage Status](https://coveralls.io/repos/suzicurran/monsters-dot-com/badge.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## [Live on Heroku!](https://monsters-dot-com.herokuapp.com)
 
-Things you may want to cover:
+## Overview
 
-* Ruby version
+MonsterS.com, a send-up of a well-known job search site, allows users to post photos and descriptions of famous monsters who are "looking for work.” Users can rate them on various sliding-scale characteristics, such as scariness or silliness, and/or search for the best monsters for a “job” based on those characteristics. We enjoyed the technical challenges of crafting back-end logic for a variety of complex features, like up and downvoting reviews, sorting monsters by their traits, and user searches, as well as styling the site using a combination of Foundation and vanilla CSS.
 
-* System dependencies
+This group project was built with peer developers using daily standup meetings, pair programming, and test-driven development on various aspects of the web site.
 
-* Configuration
+## Technologies
 
-* Database creation
+* Ruby on Rails
+* JavaScript
+* ReactJS
+* PostgreSQL
+* Devise
+* Internal API
 
-* Database initialization
+## Local Setup
 
-* How to run the test suite
+To start:
+```
+git clone https://github.com/suzicurran/monsters-dot-com.git
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+From the directory:
+```
+bundle install
+npm install
+rake db:create && rake db:migrate && rake db:seed
+```
