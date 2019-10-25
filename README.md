@@ -6,8 +6,6 @@
 
 NOTE: This project is no longer being maintained, may have broken features and/or insecure dependencies. The repository is made available for reference purposes only.
 
-## [Live on Heroku!](https://monsters-dot-com.herokuapp.com)
-
 ## Overview
 
 MonsterS.com, a send-up of a well-known job search site, allows users to post photos and descriptions of famous monsters who are "looking for work.” Users can rate them on various sliding-scale characteristics, such as scariness or silliness, and/or search for the best monsters for a “job” based on those characteristics. We enjoyed the technical challenges of crafting back-end logic for a variety of complex features, like up and downvoting reviews, sorting monsters by their traits, and user searches, as well as styling the site using a combination of Foundation and vanilla CSS.
