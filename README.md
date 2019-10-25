@@ -4,6 +4,8 @@
 ![Code Climate](https://codeclimate.com/github/suzicurran/monsters-dot-com.png)
 ![Coverage Status](https://coveralls.io/repos/suzicurran/monsters-dot-com/badge.png)
 
+NOTE: This project is no longer being maintained, may have broken features and/or insecure dependencies. The repository is made available for reference purposes only.
+
 ## [Live on Heroku!](https://monsters-dot-com.herokuapp.com)
 
 ## Overview
